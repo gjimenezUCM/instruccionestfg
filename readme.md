@@ -45,6 +45,12 @@ Si vais a utilizar otras plantillas como [TeFloN](https://www.ucm.es/oficina-de-
 
 También podéis probar [otras alternativas](https://github.com/wikiti/pandoc-book-template) para escribir [la memoria en Markdown](https://github.com/tompollard/phd_thesis_markdown), pero de esto no hay aún plantillas. 
 
+## Editores y plataformas
+
+Podéis usar cualquier editor o plataforma. Google Docs o Word en Office365 tienen la ventaja de que la colaboración es trivial. En particular, Word permite de una manera muy cómoda y sin pérdida de formatos/estilos cambiar entre la versión de navegador y la de escritorio por lo que si vais a usarlo para escribir la memoria es mejor opción que Google Docs.
+
+Para LaTeX se suelen usar editores genéricos (como [Visual Code](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) o [Sublime Text](https://latextools.readthedocs.io/en/latest/)) o propios (como [TexMaker](https://www.xm1math.net/texmaker/) o [TexStudio](http://texstudio.sourceforge.net/)). Otra alternativa es [Overleaf](https://www.overleaf.com/), para poder escribir de manera colaborativa. El inconveniente de este último es que se "pierde" el control de versiones (como se verá en la próxima sección).
+
 
 ## LaTeX vs. Word
 
@@ -232,42 +238,47 @@ al *abstract*, pero centrándose más en los resultados. Se suele escribir de mo
 
 Después se habla del Trabajo futuro, de lo que se podría hacer a partir de aquí, basándose en los resultados o en el producto de la implementación. Suele ser recomendable llevar una lista de cosas que pueden ser interesantes para incluir en el proyecto y que, si no se llegan a desarrollar, se incluyen en el trabajo futuro.
 
+## Bibliografía
+
+La bibliografía es **fundamental**. Hay que procurar no citar páginas
+web, sino artículos científicos y libros (las páginas desaparecen, lo
+otro está catalogado). Gestionar una bibliografía es un poco aburrido
+pero con un gestor bibliográfico como [Zotero](https://www.zotero.org/) es más fácil. Google Docs y Word tienen plug-ins para integrar fácilmente Zotero. Word también incluye su propio gestor bibliográfico.
+
+Si se citan páginas web (porque no se ha encontrado una referencia mejor) incluid siempre la fecha del último acceso. 
+
+Generalmente, si se citan librerías o software específico, en lugar de una cita bibliográfica se suele poner una nota al pie de la página en la que se referencia.
+
+Si tienes dudas, la biblioteca de la UCM tiene material sobre [como citar la bibliografía](https://biblioguias.ucm.es/elaborar-trabajos-academicos/citar-bibliografia) y también tenéis [guías de gestores bibliográficos](https://biblioguias.ucm.es/ingenieria-informatica/gestionar-bibliografia).
+
 # Ideas generales sobre el texto
 
-* Todas las imágenes y figuras tienen que ser útiles (nada de logos)
-* Todas las imágenes, figuras, tablas y demás tienen que estar
-  numeradas con esquema (Tabla 2.5), y tener un pie que describa
-  perfectamente lo que se ve. - Los títulos de capítulos y secciones
-  tienen que ser descriptivos, no atractivos (aunque si se consiguen
-  ambas cosas, mejor). - No se escribe en "personal". No se ponen nada
-  como "hemos aprendido mucho", es un documento técnico. Para
-  referirse a uno mismo, las fórmulas clásicas son usar la primera
-  persona del plural ("hemos llevado a cabo"), o el impersonal ("se ha
-  llevado a cabo"). - Dentro de lo razonable, repetir cosas en varios
-  sitios no es necesariamente malo. Es muy raro que alguien se lea un
-  documento técnico como se lee una novela, se va por secciones, se
-  cambia de capítulo… Aunque no hay que exagerar esto, hay que asumir
-  que mucha gente se leerá las conclusiones casi lo primero.
-* Poned títulos de capítulos y secciones largos y descriptivos. No
-  pongáis "contribución" o "prototipo". Poned "Desarrollo del sistema
-  inteligente para hacer palomitas" o "Detalle de modelo computacional
-  del primer prototipo".
-* No tengáis miedo de repetir contenido, siempre que esté justificado
-  que lo hagáis. No es una novela, es un documento técnico que **nadie
-  se lee de arriba a abajo**, por eso tantos índices y referencias son
-  necesarios.
+- No se escribe en "personal". No se ponen nada  como "hemos aprendido mucho" o "he hecho...", es un documento técnico. Para  referirse a uno mismo, las fórmulas clásicas son usar la primera persona del plural ("hemos llevado a cabo"), o el impersonal ("se ha implementado...").
+- En general, hay que tener cuidado con el tiempo verbal con el que se escribe. Generalmente en la intro se escribe "sobre lo que se va a hacer" y en las conclusiones "sobre lo que se ha hecho", por lo que el resto del texto puede estar en presente.
+- Todas las imágenes y figuras tienen que ser útiles (nada de logos)
+- Todas las imágenes, figuras, tablas y demás tienen que estar numeradas y referenciadas desde el texto, y tener un pie que describa perfectamente lo que se ve.
+- Los títulos de capítulos y secciones tienen que ser descriptivos. No pongáis "contribución" o "prototipo". Poned "Desarrollo del sistema inteligente para hacer palomitas" o "Detalle de modelo computacional  del primer prototipo".
+- Dentro de lo razonable, repetir cosas en varios sitios no es necesariamente malo. Es muy raro que alguien se lea un  documento técnico como se lee una novela, se va por secciones, se cambia de capítulo... Aunque no hay que exagerar esto, hay que asumir  que mucha gente se leerá las conclusiones casi lo primero.
+
+
 
 # A hombros de gigantes
 
 Se han escrito ya muchos TFGs, y es muy útil que leáis TFGs ya escritos
 para ver cómo se hacen. La [UCM publica todos los
-TFG](https://eprints.ucm.es/), y son de libre acceso. Principalmente de
+TFG](https://eprints.ucm.es/view/types/tfg.date.html), y son de libre acceso. Principalmente de
 la Facultad de Informática (porque siguen la normativa, sobre todo los
 del año anterior), pero cualquier lectura es buena. Aunque no sea lo más
 divertido del mundo leer trabajos de otros, intentad echar un vistazo a
-ejemplos (por ejemplo, de compañeros vuestros que ya hayan terminado).
+ejemplos (por ejemplo, de compañeros vuestros que ya hayan terminado). Algunos trabajos de TFG destacables son los siguientes:
 
-# Comunicación
+- [MMOTFG: Massively Multiplayer Online Telegram Fantasy Game](https://eprints.ucm.es/id/eprint/74225/)
+- [Recomendador inteligente de vestimenta ](https://eprints.ucm.es/id/eprint/48875/)
+- [Realidad aumentada para el Museo de América](https://eprints.ucm.es/id/eprint/32915/)
+- [Sistema de matchmaking para un videojuego multijugador ](https://eprints.ucm.es/id/eprint/66998/)
+
+
+# Comunicación y revisiones
 
 En última instancia, una memoria técnica es un ejercicio de
 comunicación. Se escribe para que alguien, en 1 hora, sepa todo lo
@@ -276,26 +287,16 @@ condensar, explicar bien las causas y las decisiones, y estructurar de
 forma que el lector tenga que emplear poco esfuerzo para entender, es
 fundamental.
 
+Para que la memoria sea lo más correcta posible, es necesario revisarla en varias ocasiones una vez escrita. Pero estas revisiones empiezan por vosotros mismos, como escritores de la memoria. Cualquier revisión parcial de la memoria implica que lo que está escrito ya lo habéis revisado vosotros, por lo que no se espera que haya faltas de ortografía, erratas, comentarios al margen de la memoria o frases sin terminar (o, al menos, se intenta que no las haya). Además, es fundamental que, una vez completada, **se lea de principio a fin y como si fuese la primera vez que sea ha leído** ya que es la forma en la que la leerá el tribunal. Es un ejercicio que puede resultar algo complicado pero fundamental para ver que la memoria no presupone ningún conocimiento y que la información está en el orden correcto. 
+
 # Fechas
 
 Empezad a escribir cuanto antes. Cuesta mucho esfuerzo, y en general se
-tiene poca práctica. Lo ideal es mandar muchas versiones al principio
-para que, muy pronto, la estructura coja forma y se corrijan, cuanto
-antes, los defectos básicos.
+tiene poca práctica. Lo ideal es ir mandando versiones de la memoria para que, muy pronto, la estructura coja forma y se corrijan, cuanto
+antes, los defectos básicos. 
 
-Otra cosa importante es que cada cita, artículo, libro o idea que se
-encuentre se vaya añadiendo a un documento para que no se pierda
-información.
+Suele ser recomendable tener una primera versión en enero, otra versión extendida en marzo, y una versión casi final a primeros de mayo, de modo que la entrega que en el calendario aparece como borrador final sea prácticamente una versión definitiva de la memoria. 
 
-# Plataforma
 
-Podéis usar cualquier editor o plataforma. Google Docs tiene la ventaja
-de que la colaboración es trivial.
+# Plagio
 
-## Bibliografía
-
-La bibliografía es **fundamental**. Hay que procurar no citar páginas
-web, sino artículos científicos y libros (las páginas desaparecen, lo
-otro está catalogado). Gestionar una bibliografía es un poco aburrido
-pero con un gestor como [Zotero](https://www.zotero.org/) es más fácil.
-Google Docs y Word tienen plug-ins para Zotero.
