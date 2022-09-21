@@ -1,0 +1,301 @@
+# Instrucciones generales para hacer la memoria del TFG
+
+Este documento contiene guías e ideas generales (no reglas) para
+estructurar el Trabajo de Fin de Grado. Estas guías han sido creadas
+tomando como partida las [instrucciones para TFGs de Carlos
+León](https://github.com/cleongh/instruccionestfg)
+
+Es fundamental tener en cuenta que la memoria va a ser la primera
+impresión (y, junto con la presentación, la más relevante), y que el
+tribunal se la mirará con detalle.
+
+**La calidad de la memoria es esencial para aprobar el TFG.**
+
+# Normativa TFG
+
+Lo primero es leerse la [normativa del TFG del año que nos
+toca](https://informatica.ucm.es/trabajo-de-fin-de-grado-y-sistemas-informaticos).
+La normativa y el calendario suelen aparecer en los enlaces a la derecha
+de la lista de trabajos del año en cuestión. Siempre hay información
+relevante, entre la que destaca:
+
+* Los plazos de entrega. De estos, el llamado "Entrega de la memoria
+  final y de la autorización de difusión" es la fecha final en la que
+  ya no se pueden hacer más cambios.
+* Qué partes de la memoria hay que escribir en inglés.
+* Hay que declarar la contribución de cada uno de los miembros,
+  explicitando qué ha hecho cada uno. Se puede poner notas distintas a
+  los miembros del grupo (aunque no es raro que se ponga la misma a
+  todos).
+
+# Plantillas
+
+Para realizar la memoria es conveniente usar alguna de las plantillas
+que hay disponibles. Actualmente un buen punto de partida son [las
+plantillas para memorias de
+TFM](https://informatica.ucm.es/trabajos-de-fin-de-master-ing-inf) que
+aparecen en la página de los másteres (nuevamente, en el lado derecho):
+
+* [Plantilla para
+  Word](https://informatica.ucm.es/data/cont/media/www/pag-122587/Plantillas/TFM-TFG-Word-v1\(2019\).docx)
+* [Plantilla para
+  LaTeX](https://informatica.ucm.es/data/cont/media/www/pag-122587/Plantillas/TFMTeXiS-UTF8-v1\(2019\).zip)
+
+Si vais a utilizar otras plantillas como [TeFloN](https://www.ucm.es/oficina-de-software-libre/file/teflon-x-c) revisad que el formato se aproxima a lo pedido en la normativa.
+
+También podéis probar [otras alternativas](https://github.com/wikiti/pandoc-book-template) para escribir [la memoria en Markdown](https://github.com/tompollard/phd_thesis_markdown), pero de esto no hay aún plantillas. 
+
+
+## LaTeX vs. Word
+
+Podéis usar la que queráis pero solemos recomendar que lo hagáis en
+LaTeX porque:
+
+* En LaTeX no hay que preocuparse de la maquetación del texto sino
+  solo de escribirlo teniendo en cuenta unas marcas simples de
+  sintaxis. Una vez compilado, el PDF quedará con un acabado
+  profesional con muy poco esfuerzo.
+* Los archivos .tex son código que se compila a PDF, por lo que se
+  pueden meter dentro de un sistema de control de versiones (y ya
+  conocéis la utilidad de los mismos para trabajo colaborativo)
+* No sabéis tanto Word como creéis por lo que en muchas ocasiones no
+  se usa correctamente la plantilla de Word y resulta muy engorroso
+  hacer que todo quede con un acabado profesional.
+
+La sintaxis de LaTeX es sencilla para lo que se necesita generalmente en
+un TFG por lo que no es impedimento para empezar a trabajar con ello.
+
+Si usáis la plantilla de Word utilizad correctamente los estilos, los
+títulos y las referencias cruzadas, y el gestor bibliográfico. Si no lo
+sabéis usar, entonces os recomendamos que hagáis el pequeño esfuerzo de
+aprender LaTeX.
+
+En la UCM también hay [cursos de Word y LaTeX a distintos
+niveles](https://cursosinformatica.ucm.es/) con los que aprender lo que
+necesitáis para hacer los TFGs (y, además, conseguir créditos
+optativos).
+
+# Portada y aspecto
+
+Es necesario adaptar las portadas de las plantillas a la descripción de los
+contenidos que aparece en la normativa.
+
+# Capítulos
+
+La memoria se estructura en varios capítulos. Generalmente, todos los capítulos (salvo el de "Introducción" y el de "Conclusiones y Trabajo Futuro") tienen uno o varios párrafos de introducción (que ayudan al lector a saber de dónde viene y qué es lo que se va a explicar en este capítulo) y una sección final, llamada Conclusiones, en la que se hace un breve resumen de lo visto en el capítulo y de las conclusiones más destacadas de lo que se ha contado en el capítulo. Cualquier lector debería poder entender (sin entrar a detalles técnicos)qué se ha hecho en el TFG solo leyendo las introducciones y las conclusiones de los capítulos.
+
+
+Generalmente, hay 5 partes importantes que todo trabajo académico (no
+sólo la memoria del TFG) tiene que contemplar. Lo normal es estructurar
+el documento de forma que estas partes se correspondan con los siguientes
+capítulos:
+
+- Resumen
+- Introducción
+- Estado del arte o Estudio del Trabajo Previo
+- Capítulo(s) de contribución
+- Conclusiones y Trabajo Futuro
+
+## Resumen (abstract)
+
+Unos pocos párrafos que sirvan para que alguien no tenga ni idea de lo
+que se está leyendo sepa: *cuál es el problema que se quiere resolver*,
+*cómo se ha resuelto* y *cuáles han sido los resultados más
+importantes*. Algo siguiendo estas ideas, pero más largo y detallado:
+
+1.  El estado actual de la tecnología es \(X\).
+2.  Sin embargo, la tecnología aún no hace \(Y\).
+3.  Usando \(Z\), hemos hecho un sistema que hace \(Y\).
+4.  Lo hemos montado y evaluado, con resultados \(R\).
+
+### Palabras clave
+
+Poned las *keywords*. Intentad ordenarlas por relevancia, y que sean
+palabras clave que la gente suela buscar.
+
+## Introducción
+
+El capítulo de introducción Es útil empezar a escribir contando de forma general el
+estado de la ciencia o la técnica en un punto dado, e introduciendo el
+problema general por el que se trabaja. Es decir, antes de ir a las
+subsecciones, escribir unos párrafos describiendo un poco con detalle el
+estado actual del problema o la tecnología. Con seriedad, pero no con un
+detalle total de cada cosa, ya que eso va en el siguiente capítulo.
+
+### Motivación
+
+La motivación es la razón **técnica** por la que se lleva a cabo un
+desarrollo. La motivación describe por qué se hace el trabajo (por
+ejemplo, se quiere mejorar la identificación automática de personas por
+la imagen de su cara) y por qué se intenta, en particular, la solución
+que se propone.
+
+Es decir, hacéis el trabajo **por un motivo**, **porque vale para
+algo**, y porque **la tecnología lo permite**.
+
+### Objetivos
+
+Una lista *concreta* de cosas que se quieren conseguir. Muchas veces
+ayudará hacerlo como una lista con topos:
+
+* Descubrir los números primos que acaben en 7
+* Implementar un algoritmo que descubra las caras que se parecen a 7
+* Hacer un experimento con caras reales
+
+### Metodología y Plan de trabajo
+
+Generalmente consiste en indicar la forma en la que se va a trabajar  indicando, entre otros:
+
+- La metodología empleada (por ejemplo, sprints semanales usando scrum)
+- Si hay reuniones periódicas
+- La comunicación dentro del equipo
+- Uso de repositorios para trabajo colaborativo
+- ...
+
+El plan de trabajo pretende definir cuál es la fecha aproximada en la que se van a cubrir los objetivos/tareas definidas. Este plan de cómo se van a repartir los recursos y el tiempo queda **también** muy bien con un [diagrama de Gantt](https://es.wikipedia.org/wiki/Diagrama_de_Gantt), aunque no tiene que ser tan técnico.
+
+### Estructura del resto del documento
+
+Esto es más una costumbre, pero ayuda. Algo del estilo de: "En el
+capítulo 2 se estudiará el estado del arte. En el capítulo 3 se describe la..."
+
+## Capítulo del estudio del trabajo previo (o "estado del arte")
+
+Una parte lenta de hacer, pero muy importante. En esta parte se describe
+todo el trabajo sobre el que se construye nuestra propuesta. Tiene que
+tener muchas citas, y esas citas son *idealmente* artículos y libros
+técnicos y científicos. Sólo en el caso de citar algo que no esté como
+publicación clásica (un videojuego) se permite no ser tan riguroso.
+
+Para acceder a este tipo de documentos os recomendamos que uséis [el buscador de la biblioteca](https://biblioteca.ucm.es/) y que hagáis búsquedas con términos en inglés. 
+
+Esta parte se suele hacer muy al principio por lo que es recomendable que se vaya escribiendo a medida que se hace (si no, habrá que volver a hacer el trabajo al final del curso). Siempre que encontréis algo interesante haced un resumen con vuestras propias palabras y guardadlo junto con la referencia del documento del que ha salido. De esta forma será más fácil componer la memoria más adelante.
+
+### Trabajos parecidos o relacionados
+
+Aquí hay que hacer una revisión general de todo lo que se parezca a
+nuestro trabajo.
+
+### Tecnologías usadas en el trabajo
+
+Aquí se describen los puntos importante de las tecnologías que usamos,
+si es que hay algo interesante: librerías, algoritmos, plataformas... No
+hay que poner imágenes con los logos ni contar cosas triviales (no hay
+que explicar qué navegador de Internet usamos, a no ser que el proyecto
+vaya de eso). No hay que describir `git` ni `scrum`.
+
+## Capítulos de contribución
+
+Esta parte puede ser un solo capítulo, aunque pueden (y suelen) ser más,
+dependiendo de lo que se cuente. Es donde se explica lo que se ha hecho: la funcionalidad, la arquitectura, pruebas, experimentos, resultados... Idealmente, primero lo general y finalmente los resultados.
+
+Una cosa muy normal es tener varios capítulos aquí. Por ejemplo:
+
+- **Diseño funcional**: Qué es lo que hace lo que vamos a desarrollar. Nos podemos apoyar en bocetos y prototipos para explicar la funcionalidad o, incluso, en la versión final de la interfaz (si tiene) de nuestra aplicación.
+- **Implementación**: Diseño arquitectónico de la aplicación, módulos que la componen, comunicación entre módulos, tecnología usadas... En este capítulo **no se ponen capturas de código** (a no ser que fuese algo fundamental sin lo cual no se entiende el desarrollo del proyecto) **ni capturas del árbol de directorios de nuestro proyecto** para definir la arquitectura. Usamos los diagramas UML adecuados que conocemos de otras asignaturas. 
+
+## Evaluación y discusión
+
+Un capítulo en el que contéis cómo habéis evaluado el sistema que habéis desarrollado. Empezad el capítulo esbozando la idea, y luego, posiblemente por secciones, detalláis lo que aparece a continuación. Si hay varios tipos de evaluación entonces se repiten estas secciones varias veces, definiendo cada una de las evaluaciones realizadas.
+
+### Objetivo
+
+Cuál es el objetivo de la evaluación, para qué lo queréis hacer. Se explica el qué se va a evaluar, no el cómo se va a evaluar, que se cuenta a continuación:
+
+
+### Proceso de evaluación
+
+Cuál es el método de evaluación, que vais a hacer para evaluar, cómo son los cuestionarios, qué pruebas se harán....
+
+Qué experimentos se han hecho, cuántos usuarios, dónde, etc.
+
+El contenido de este apartado depende de si se han hecho evaluaciones con usuarios y/o evaluaciones experimentales. 
+
+### Resultados
+
+Poner tablas, gráficas y números. Sin opinar de momento, sólo decir lo
+que sale.
+
+### Análisis de los resultados
+
+Basándoos en la sección anterior, explicar qué significa que hayan
+salido esos datos (sobre todo en función de los objetivos de la evaluación), y si los validan o la rechazan. Es muy normal que ni una cosa ni la otra, pero los datos deberían *dar indicios* en uno u otro sentido, cosa que se dice claramente.
+
+### Discusión
+
+Es una sección (o puede que sea un capítulo) en donde se *discute*, desde el punto de vista técnico, las ventajas y limitaciones de nuestro trabajo. No hay inconveniente por admitir explícitamente las limitaciones, sobre todo si esas limitaciones no las ha superado nadie. No hay que dejarse nada, todo lo que no se discuta será discutido con el tribunal durante la presentación, y eso suele ser algo más complicado que haberlo reflexionado durante el desarrollo del TFG.
+
+## Conclusiones y trabajo futuro
+
+El capítulo final es bastante esquemático. Se empieza con algo parecido
+al *abstract*, pero centrándose más en los resultados. Se suele escribir de modo que se alinea con los objetivos de la introducción pero cambiando el modo en el que se describen e indicando las tareas realizadas y los resultados concretos. Por ejemplo, el Objetivo "Analizar diferentes técnicas para reconocer texto de manera automática" pasa a ser "Se ha hecho un estudio de diferentes librerías y algoritmos para el reconocimiento automático de texto" en las conclusiones. Puede parecer redundante, porque lo es, pero se espera que se cuente aquí.
+
+Después se habla del Trabajo futuro, de lo que se podría hacer a partir de aquí, basándose en los resultados o en el producto de la implementación. Suele ser recomendable llevar una lista de cosas que pueden ser interesantes para incluir en el proyecto y que, si no se llegan a desarrollar, se incluyen en el trabajo futuro.
+
+# Ideas generales sobre el texto
+
+* Todas las imágenes y figuras tienen que ser útiles (nada de logos)
+* Todas las imágenes, figuras, tablas y demás tienen que estar
+  numeradas con esquema (Tabla 2.5), y tener un pie que describa
+  perfectamente lo que se ve. - Los títulos de capítulos y secciones
+  tienen que ser descriptivos, no atractivos (aunque si se consiguen
+  ambas cosas, mejor). - No se escribe en "personal". No se ponen nada
+  como "hemos aprendido mucho", es un documento técnico. Para
+  referirse a uno mismo, las fórmulas clásicas son usar la primera
+  persona del plural ("hemos llevado a cabo"), o el impersonal ("se ha
+  llevado a cabo"). - Dentro de lo razonable, repetir cosas en varios
+  sitios no es necesariamente malo. Es muy raro que alguien se lea un
+  documento técnico como se lee una novela, se va por secciones, se
+  cambia de capítulo… Aunque no hay que exagerar esto, hay que asumir
+  que mucha gente se leerá las conclusiones casi lo primero.
+* Poned títulos de capítulos y secciones largos y descriptivos. No
+  pongáis "contribución" o "prototipo". Poned "Desarrollo del sistema
+  inteligente para hacer palomitas" o "Detalle de modelo computacional
+  del primer prototipo".
+* No tengáis miedo de repetir contenido, siempre que esté justificado
+  que lo hagáis. No es una novela, es un documento técnico que **nadie
+  se lee de arriba a abajo**, por eso tantos índices y referencias son
+  necesarios.
+
+# A hombros de gigantes
+
+Se han escrito ya muchos TFGs, y es muy útil que leáis TFGs ya escritos
+para ver cómo se hacen. La [UCM publica todos los
+TFG](https://eprints.ucm.es/), y son de libre acceso. Principalmente de
+la Facultad de Informática (porque siguen la normativa, sobre todo los
+del año anterior), pero cualquier lectura es buena. Aunque no sea lo más
+divertido del mundo leer trabajos de otros, intentad echar un vistazo a
+ejemplos (por ejemplo, de compañeros vuestros que ya hayan terminado).
+
+# Comunicación
+
+En última instancia, una memoria técnica es un ejercicio de
+comunicación. Se escribe para que alguien, en 1 hora, sepa todo lo
+relevante que ha ocurrido durante todo un año de trabajo. Filtrar,
+condensar, explicar bien las causas y las decisiones, y estructurar de
+forma que el lector tenga que emplear poco esfuerzo para entender, es
+fundamental.
+
+# Fechas
+
+Empezad a escribir cuanto antes. Cuesta mucho esfuerzo, y en general se
+tiene poca práctica. Lo ideal es mandar muchas versiones al principio
+para que, muy pronto, la estructura coja forma y se corrijan, cuanto
+antes, los defectos básicos.
+
+Otra cosa importante es que cada cita, artículo, libro o idea que se
+encuentre se vaya añadiendo a un documento para que no se pierda
+información.
+
+# Plataforma
+
+Podéis usar cualquier editor o plataforma. Google Docs tiene la ventaja
+de que la colaboración es trivial.
+
+## Bibliografía
+
+La bibliografía es **fundamental**. Hay que procurar no citar páginas
+web, sino artículos científicos y libros (las páginas desaparecen, lo
+otro está catalogado). Gestionar una bibliografía es un poco aburrido
+pero con un gestor como [Zotero](https://www.zotero.org/) es más fácil.
+Google Docs y Word tienen plug-ins para Zotero.
