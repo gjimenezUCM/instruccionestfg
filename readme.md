@@ -11,6 +11,32 @@ tribunal se la mirará con detalle.
 
 **La calidad de la memoria es esencial para aprobar el TFG.**
 
+<!-- MarkdownTOC -->
+
+- [Normativa TFG](#normativa-tfg)
+- [Plantillas](#plantillas)
+  - [Editores y plataformas](#editores-y-plataformas)
+  - [LaTeX vs. Word](#latex-vs-word)
+- [Portada y aspecto](#portada-y-aspecto)
+- [Capítulos](#cap%C3%ADtulos)
+  - [Resumen \(abstract\)](#resumen-abstract)
+  - [Introducción](#introducci%C3%B3n)
+  - [Capítulo del estudio del trabajo previo \(o "estado del arte"\)](#cap%C3%ADtulo-del-estudio-del-trabajo-previo-o-estado-del-arte)
+  - [Capítulos de contribución](#cap%C3%ADtulos-de-contribuci%C3%B3n)
+  - [Evaluación y discusión](#evaluaci%C3%B3n-y-discusi%C3%B3n)
+  - [Conclusiones y trabajo futuro](#conclusiones-y-trabajo-futuro)
+  - [Bibliografía](#bibliograf%C3%ADa)
+- [Ideas generales sobre el texto](#ideas-generales-sobre-el-texto)
+- [A hombros de gigantes](#a-hombros-de-gigantes)
+- [Comunicación y revisiones](#comunicaci%C3%B3n-y-revisiones)
+- [Fechas](#fechas)
+- [Plagio](#plagio)
+
+<!-- /MarkdownTOC -->
+
+
+
+
 # Normativa TFG
 
 Lo primero es leerse la [normativa del TFG del año que nos
