@@ -297,6 +297,6 @@ antes, los defectos básicos.
 
 Suele ser recomendable tener una primera versión en enero, otra versión extendida en marzo, y una versión casi final a primeros de mayo, de modo que la entrega que en el calendario aparece como borrador final sea prácticamente una versión definitiva de la memoria. 
 
-
 # Plagio
 
+Tal y como se indica en la normativa, todas las memorias de TFG pasan por un sistema antiplagio que revisa si hay partes de la memoria que han sido copiadas (de libros, de webs, de otros TFGs...). Para evitarlo es muy sencillo: **No copieis y peguéis texto de ningún sitio** y escribid con vuestras propias palabras todo lo que leais en otros documentos y que os parezca interesante.
