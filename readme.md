@@ -63,9 +63,9 @@ TFM](https://informatica.ucm.es/trabajos-de-fin-de-master-ing-inf) que
 aparecen en la página de los másteres (nuevamente, en el lado derecho):
 
 * [Plantilla para
-  Word](https://informatica.ucm.es/data/cont/media/www/pag-122587/Plantillas/TFM-TFG-Word-v1\(2019\).docx)
+  Word](https://informatica.ucm.es/file/plantilla_tfg_word?ver)
 * [Plantilla para
-  LaTeX](https://informatica.ucm.es/data/cont/media/www/pag-122587/Plantillas/TFMTeXiS-UTF8-v1\(2019\).zip)
+  LaTeX](https://informatica.ucm.es/file/plantilla_tfg_latex?ver)
 
 Si vais a utilizar otras plantillas como [TeFloN](https://www.ucm.es/oficina-de-software-libre/file/teflon-x-c) revisad que el formato se aproxima a lo pedido en la normativa.
 
