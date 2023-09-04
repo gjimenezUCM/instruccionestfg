@@ -27,7 +27,7 @@ tribunal se la mirará con detalle.
   - [Conclusiones y trabajo futuro](#conclusiones-y-trabajo-futuro)
   - [Bibliografía](#bibliograf%C3%ADa)
 - [Recomendaciones sobre la escritura del documento](#recomendaciones-sobre-la-escritura-del-documento)
-- [A hombros de gigantes](#a-hombros-de-gigantes)
+- [Para revisar otros TFGs ya escritos](#para-revisar-otros-tfgs-ya-escritos)
 - [Comunicación y revisiones](#comunicaci%C3%B3n-y-revisiones)
 - [Fechas](#fechas)
 - [Plagio](#plagio)
@@ -288,20 +288,20 @@ Si tienes dudas, la biblioteca de la UCM tiene material sobre [como citar la bib
 
 
 
-# A hombros de gigantes
+# Para revisar otros TFGs ya escritos
 
 Se han escrito ya muchos TFGs, y es muy útil que leáis TFGs ya escritos
 para ver cómo se hacen. La [UCM publica todos los
-TFG](https://eprints.ucm.es/view/types/tfg.date.html), y son de libre acceso. Principalmente de
+TFGs de la Facultad de Informática](https://docta.ucm.es/browse/subjectucm?scope=c7e23ccb-08c5-430a-b40e-6b7b823b84e9&value=Inform%C3%A1tica%20(Inform%C3%A1tica)&bbm.return=14) y son de libre acceso. Principalmente de
 la Facultad de Informática (porque siguen la normativa, sobre todo los
 del año anterior), pero cualquier lectura es buena. Aunque no sea lo más
 divertido del mundo leer trabajos de otros, intentad echar un vistazo a
 ejemplos (por ejemplo, de compañeros vuestros que ya hayan terminado). Algunos trabajos de TFG destacables son los siguientes:
 
-- [MMOTFG: Massively Multiplayer Online Telegram Fantasy Game](https://eprints.ucm.es/id/eprint/74225/)
-- [Recomendador inteligente de vestimenta ](https://eprints.ucm.es/id/eprint/48875/)
-- [Realidad aumentada para el Museo de América](https://eprints.ucm.es/id/eprint/32915/)
-- [Sistema de matchmaking para un videojuego multijugador ](https://eprints.ucm.es/id/eprint/66998/)
+- [MMOTFG: Massively Multiplayer Online Telegram Fantasy Game](https://docta.ucm.es/entities/publication/b903e837-9ddc-4bb5-89b2-589e542d3f10)
+- [Recomendador inteligente de vestimenta ](https://docta.ucm.es/entities/publication/fb8dee97-d5b5-44a5-aa51-ac26bdcef556)
+- [Realidad aumentada para el Museo de América](https://docta.ucm.es/entities/publication/53f32842-9e84-48bc-9bff-d142a12d3293)
+- [Sistema de matchmaking para un videojuego multijugador ](https://docta.ucm.es/entities/publication/6e3d0790-6261-4e6c-b37e-98228388f522)
 
 
 # Comunicación y revisiones
