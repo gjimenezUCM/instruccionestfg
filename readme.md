@@ -302,7 +302,8 @@ ejemplos (por ejemplo, de compañeros vuestros que ya hayan terminado). Algunos 
 - [Recomendador inteligente de vestimenta ](https://docta.ucm.es/entities/publication/fb8dee97-d5b5-44a5-aa51-ac26bdcef556)
 - [Realidad aumentada para el Museo de América](https://docta.ucm.es/entities/publication/53f32842-9e84-48bc-9bff-d142a12d3293)
 - [Sistema de matchmaking para un videojuego multijugador ](https://docta.ucm.es/entities/publication/6e3d0790-6261-4e6c-b37e-98228388f522)
-
+- [Automatic detection of flashing video content in videogames (en inglés)](https://hdl.handle.net/20.500.14352/5380)
+- [Automatic validation of accesibility guidelines in videogames (en inglés)](https://hdl.handle.net/20.500.14352/3204)
 
 # Comunicación y revisiones
 
