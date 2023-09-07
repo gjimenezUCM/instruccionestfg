@@ -40,7 +40,7 @@ tribunal se la mirará con detalle.
 # Normativa TFG
 
 Lo primero es leerse la [normativa del TFG del año que nos
-toca](https://informatica.ucm.es/trabajo-de-fin-de-grado-y-sistemas-informaticos).
+toca](https://informatica.ucm.es/trabajo-de-fin-de-grado).
 La normativa y el calendario suelen aparecer en los enlaces a la derecha
 de la lista de trabajos del año en cuestión. Siempre hay información
 relevante, entre la que destaca:
