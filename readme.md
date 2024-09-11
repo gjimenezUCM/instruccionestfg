@@ -273,6 +273,7 @@ Si tienes dudas, la biblioteca de la UCM tiene material sobre [como citar la bib
 - **Se escribe de los más general a lo más específico**. No solo a nivel de la memoria completa sino también en cada capítulo. Alguien debería poder comprender el trabajo que habéis realizado (sin entrar en detalles) leyendo la introducción y las conclusiones de cada capítulo.
 - **No se escribe en "personal"**. No se ponen nada  como "hemos aprendido mucho" o "he hecho...", es un documento técnico. Para  referirse a uno mismo, las fórmulas clásicas son usar la primera persona del plural ("hemos llevado a cabo"), o el impersonal ("se ha implementado...").
 - En general, hay que tener **cuidado con el tiempo verbal** con el que se escribe. Generalmente en la intro se escribe "sobre lo que se va a hacer" y en las conclusiones "sobre lo que se ha hecho", por lo que el resto del texto puede estar en presente.
+- En la parte de implementación, **los nombres de clases, módulos y métodos se escriben con letra monoespaciada** (en LaTex usad `\texttt`).
 - **Todas las imágenes y figuras tienen que ser útiles** (nada de logos)
 - **Todas las imágenes, figuras, tablas y demás tienen que estar numeradas y referenciadas desde el texto**, y tener un pie que describa perfectamente lo que se ve.
 - Si las imágenes son propias, indicadlo en el pie de la imagen. **Si las imágenes son de otros, referenciad de dónde salen**.
