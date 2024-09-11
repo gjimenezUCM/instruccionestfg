@@ -11,6 +11,7 @@ tribunal se la mirará con detalle.
 
 **La calidad de la memoria es esencial para aprobar el TFG.**
 
+
 <!-- MarkdownTOC -->
 
 - [Normativa TFG](#normativa-tfg)
@@ -23,7 +24,6 @@ tribunal se la mirará con detalle.
   - [Introducción](#introducci%C3%B3n)
   - [Capítulo del estudio del trabajo previo \(o "estado del arte"\)](#cap%C3%ADtulo-del-estudio-del-trabajo-previo-o-estado-del-arte)
   - [Capítulos de contribución](#cap%C3%ADtulos-de-contribuci%C3%B3n)
-  - [Evaluación y discusión](#evaluaci%C3%B3n-y-discusi%C3%B3n)
   - [Conclusiones y trabajo futuro](#conclusiones-y-trabajo-futuro)
   - [Bibliografía](#bibliograf%C3%ADa)
 - [Recomendaciones sobre la escritura del documento](#recomendaciones-sobre-la-escritura-del-documento)
@@ -33,6 +33,7 @@ tribunal se la mirará con detalle.
 - [Plagio](#plagio)
 
 <!-- /MarkdownTOC -->
+
 
 
 
@@ -57,10 +58,7 @@ relevante, entre la que destaca:
 # Plantillas
 
 Para realizar la memoria es conveniente usar alguna de las plantillas
-que hay disponibles. Actualmente un buen punto de partida son [las
-plantillas para memorias de
-TFM](https://informatica.ucm.es/trabajos-de-fin-de-master-ing-inf) que
-aparecen en la página de los másteres (nuevamente, en el lado derecho):
+que hay disponibles. Están también en la página de TFGs del año que toca, entre los enlaces que aparecen a la derecha:
 
 * [Plantilla para
   Word](https://informatica.ucm.es/file/plantilla_tfg_word?ver)
@@ -73,9 +71,9 @@ También podéis probar [otras alternativas](https://github.com/wikiti/pandoc-bo
 
 ## Editores y plataformas
 
-Podéis usar cualquier editor o plataforma. Google Docs o Word en Office365 tienen la ventaja de que la colaboración es trivial. En particular, Word permite de una manera muy cómoda y sin pérdida de formatos/estilos cambiar entre la versión de navegador y la de escritorio por lo que si vais a usarlo para escribir la memoria es mejor opción que Google Docs.
+Podéis usar cualquier editor o plataforma. El uso de Word en Office365 tiene la ventaja de que la colaboración es trivial. En particular, Word permite de una manera muy cómoda y sin pérdida de formatos/estilos cambiar entre la versión de navegador y la de escritorio por lo que si vais a usarlo para escribir la memoria es una opción mucho mejor que Google Docs.
 
-Para LaTeX se suelen usar editores genéricos (como [Visual Code](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) o [Sublime Text](https://latextools.readthedocs.io/en/latest/)) o propios (como [TexMaker](https://www.xm1math.net/texmaker/) o [TexStudio](http://texstudio.sourceforge.net/)). Otra alternativa es [Overleaf](https://www.overleaf.com/), para poder escribir de manera colaborativa. El inconveniente de este último es que se "pierde" el control de versiones (como se verá en la próxima sección).
+Para LaTeX se suelen usar editores genéricos (como [Visual Code](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) o [Sublime Text](https://latextools.readthedocs.io/en/latest/)) o propios (como [TexMaker](https://www.xm1math.net/texmaker/) o [TexStudio](http://texstudio.sourceforge.net/)). Otra alternativa es [Overleaf](https://www.overleaf.com/), para poder escribir de manera colaborativa. El inconveniente de este último es que se "pierde" el control de versiones.
 
 
 ## LaTeX vs. Word
@@ -90,7 +88,7 @@ LaTeX porque:
 * Los archivos .tex son código que se compila a PDF, por lo que se
   pueden meter dentro de un sistema de control de versiones (y ya
   conocéis la utilidad de los mismos para trabajo colaborativo)
-* No sabéis tanto Word como creéis por lo que en muchas ocasiones no
+* No sabéis tanto Word como creéis por lo que, en muchas ocasiones, no
   se usa correctamente la plantilla de Word y resulta muy engorroso
   hacer que todo quede con un acabado profesional.
 
@@ -147,12 +145,7 @@ palabras clave que la gente suela buscar.
 
 ## Introducción
 
-El capítulo de introducción Es útil empezar a escribir contando de forma general el
-estado de la ciencia o la técnica en un punto dado, e introduciendo el
-problema general por el que se trabaja. Es decir, antes de ir a las
-subsecciones, escribir unos párrafos describiendo un poco con detalle el
-estado actual del problema o la tecnología. Con seriedad, pero no con un
-detalle total de cada cosa, ya que eso va en el siguiente capítulo.
+En el capítulo de introducción es útil empezar a escribir contando de forma general el estado de la ciencia o la técnica en un punto dado, e introduciendo el problema general por el que se trabaja. Es decir, antes de ir a las subsecciones, escribir unos párrafos describiendo un poco con detalle el estado actual del problema o la tecnología. Con seriedad, pero no con un detalle total de cada cosa, ya que eso va en el siguiente capítulo.
 
 ### Motivación
 
@@ -167,8 +160,8 @@ algo**, y porque **la tecnología lo permite**.
 
 ### Objetivos
 
-Una lista *concreta* de cosas que se quieren conseguir. Muchas veces
-ayudará hacerlo como una lista con topos:
+Generalmente se enuncia un objetivo general que luego se desglosa en una lista *concreta* de cosas que se quieren conseguir. Muchas veces
+ayudará hacerlo como una lista con viñetas:
 
 * Descubrir los números primos que acaben en 7
 * Implementar un algoritmo que descubra las caras que se parecen a 7
@@ -197,7 +190,7 @@ Una parte lenta de hacer, pero muy importante. En esta parte se describe
 todo el trabajo sobre el que se construye nuestra propuesta. Tiene que
 tener muchas citas, y esas citas son *idealmente* artículos y libros
 técnicos y científicos. Sólo en el caso de citar algo que no esté como
-publicación clásica (un videojuego) se permite no ser tan riguroso.
+publicación clásica (un videojuego, una charla disponible en Youtube...) se permite no ser tan riguroso.
 
 Para acceder a este tipo de documentos os recomendamos que uséis [el buscador de la biblioteca](https://biblioteca.ucm.es/) y que hagáis búsquedas con términos en inglés. 
 
@@ -218,24 +211,25 @@ vaya de eso). No hay que describir `git` ni `scrum`.
 
 ## Capítulos de contribución
 
-Esta parte puede ser un solo capítulo, aunque pueden (y suelen) ser más,
-dependiendo de lo que se cuente. Es donde se explica lo que se ha hecho: la funcionalidad, la arquitectura, pruebas, experimentos, resultados... Idealmente, primero lo general y finalmente los resultados.
+Esta parte suelen ser varios capítulos en donde se explica lo que se ha hecho: la funcionalidad, la arquitectura, pruebas, experimentos, resultados... Idealmente, primero lo general y finalmente los resultados.
 
-Una cosa muy normal es tener varios capítulos aquí. Por ejemplo:
+Una organización general suele ser tener los siguientes capítulos:
 
-- **Diseño funcional**: Qué es lo que hace lo que vamos a desarrollar. Nos podemos apoyar en bocetos y prototipos para explicar la funcionalidad o, incluso, en la versión final de la interfaz (si tiene) de nuestra aplicación.
+- **Diseño funcional**: Qué es lo que hace lo que vamos a desarrollar, sin entrar en detalles técnicos. Nos podemos apoyar en bocetos y prototipos para explicar la funcionalidad o, incluso, en la versión final de la interfaz (si tiene) de nuestra aplicación.
 - **Implementación**: Diseño arquitectónico de la aplicación, módulos que la componen, comunicación entre módulos, tecnología usadas... En este capítulo **no se ponen capturas de código** (a no ser que fuese algo fundamental sin lo cual no se entiende el desarrollo del proyecto) **ni capturas del árbol de directorios de nuestro proyecto** para definir la arquitectura. Usamos los diagramas UML adecuados que conocemos de otras asignaturas. 
+- **Evaluación y pruebas**: Se explica cómo se ha evaluado el sistema, ya sea de forma programática o con usuarios. Más adelante hablamos un poco más de este capítulo.
+- **Discusión**: Puede ser un capítulo o una sección dentro del anterios en donde se *discute*, desde el punto de vista técnico, las ventajas y limitaciones de nuestro trabajo. Es interesante admitir explícitamente las limitaciones, sobre todo si esas limitaciones no las ha superado nadie. No hay que dejarse nada, ya que todo lo que no se discuta aquí será discutido con el tribunal durante la presentación, y eso suele ser algo más complicado que haberlo reflexionado durante el desarrollo del TFG.
 
-## Evaluación y discusión
+### Evaluación y pruebas
 
-Un capítulo en el que contéis cómo habéis evaluado el sistema que habéis desarrollado. Empezad el capítulo esbozando la idea, y luego, posiblemente por secciones, detalláis lo que aparece a continuación. Si hay varios tipos de evaluación entonces se repiten estas secciones varias veces, definiendo cada una de las evaluaciones realizadas.
+Un capítulo en el que contéis cómo habéis evaluado el sistema que habéis desarrollado. Empezad el capítulo esbozando la idea de evaluación, y luego, por secciones, detalláis lo que aparece a continuación. Si hay varios tipos de evaluación entonces se repiten estas secciones varias veces, definiendo cada una de las evaluaciones realizadas.
 
-### Objetivo
+#### Objetivo
 
 Cuál es el objetivo de la evaluación, para qué lo queréis hacer. Se explica el qué se va a evaluar, no el cómo se va a evaluar, que se cuenta a continuación:
 
 
-### Proceso de evaluación
+#### Metodología
 
 Cuál es el método de evaluación, que vais a hacer para evaluar, cómo son los cuestionarios, qué pruebas se harán....
 
@@ -243,19 +237,16 @@ Qué experimentos se han hecho, cuántos usuarios, dónde, etc.
 
 El contenido de este apartado depende de si se han hecho evaluaciones con usuarios y/o evaluaciones experimentales. 
 
-### Resultados
+#### Resultados
 
 Poner tablas, gráficas y números. Sin opinar de momento, sólo decir lo
 que sale.
 
-### Análisis de los resultados
+#### Análisis de los resultados y discusión
 
 Basándoos en la sección anterior, explicar qué significa que hayan
 salido esos datos (sobre todo en función de los objetivos de la evaluación), y si los validan o la rechazan. Es muy normal que ni una cosa ni la otra, pero los datos deberían *dar indicios* en uno u otro sentido, cosa que se dice claramente.
 
-### Discusión
-
-Es una sección (o puede que sea un capítulo) en donde se *discute*, desde el punto de vista técnico, las ventajas y limitaciones de nuestro trabajo. No hay inconveniente por admitir explícitamente las limitaciones, sobre todo si esas limitaciones no las ha superado nadie. No hay que dejarse nada, todo lo que no se discuta será discutido con el tribunal durante la presentación, y eso suele ser algo más complicado que haberlo reflexionado durante el desarrollo del TFG.
 
 ## Conclusiones y trabajo futuro
 
@@ -271,7 +262,7 @@ web, sino artículos científicos y libros (las páginas desaparecen, lo
 otro está catalogado). Gestionar una bibliografía es un poco aburrido
 pero con un gestor bibliográfico como [Zotero](https://www.zotero.org/) es más fácil. Google Docs y Word tienen plug-ins para integrar fácilmente Zotero. Word también incluye su propio gestor bibliográfico.
 
-Si se citan páginas web (porque no se ha encontrado una referencia mejor) incluid siempre la fecha del último acceso. 
+Si se citan páginas web (porque no se ha encontrado una referencia mejor) _incluid siempre la fecha del último acceso_. 
 
 Generalmente, si se citan librerías o software específico, en lugar de una cita bibliográfica se suele poner una nota al pie de la página en la que se referencia.
 
@@ -279,13 +270,14 @@ Si tienes dudas, la biblioteca de la UCM tiene material sobre [como citar la bib
 
 # Recomendaciones sobre la escritura del documento
 
-- No se escribe en "personal". No se ponen nada  como "hemos aprendido mucho" o "he hecho...", es un documento técnico. Para  referirse a uno mismo, las fórmulas clásicas son usar la primera persona del plural ("hemos llevado a cabo"), o el impersonal ("se ha implementado...").
-- En general, hay que tener cuidado con el tiempo verbal con el que se escribe. Generalmente en la intro se escribe "sobre lo que se va a hacer" y en las conclusiones "sobre lo que se ha hecho", por lo que el resto del texto puede estar en presente.
-- Todas las imágenes y figuras tienen que ser útiles (nada de logos)
-- Todas las imágenes, figuras, tablas y demás tienen que estar numeradas y referenciadas desde el texto, y tener un pie que describa perfectamente lo que se ve.
-- Los títulos de capítulos y secciones tienen que ser descriptivos. No pongáis "contribución" o "prototipo". Poned "Desarrollo del sistema inteligente para hacer palomitas" o "Detalle de modelo computacional  del primer prototipo".
+- **Se escribe de los más general a lo más específico**. No solo a nivel de la memoria completa sino también en cada capítulo. Alguien debería poder comprender el trabajo que habéis realizado (sin entrar en detalles) leyendo la introducción y las conclusiones de cada capítulo.
+- **No se escribe en "personal"**. No se ponen nada  como "hemos aprendido mucho" o "he hecho...", es un documento técnico. Para  referirse a uno mismo, las fórmulas clásicas son usar la primera persona del plural ("hemos llevado a cabo"), o el impersonal ("se ha implementado...").
+- En general, hay que tener **cuidado con el tiempo verbal** con el que se escribe. Generalmente en la intro se escribe "sobre lo que se va a hacer" y en las conclusiones "sobre lo que se ha hecho", por lo que el resto del texto puede estar en presente.
+- **Todas las imágenes y figuras tienen que ser útiles** (nada de logos)
+- **Todas las imágenes, figuras, tablas y demás tienen que estar numeradas y referenciadas desde el texto**, y tener un pie que describa perfectamente lo que se ve.
+- Si las imágenes son propias, indicadlo en el pie de la imagen. **Si las imágenes son de otros, referenciad de dónde salen**.
+- **Los títulos de capítulos y secciones tienen que ser descriptivos**. No pongáis "contribución" o "prototipo". Poned "Desarrollo del sistema inteligente para hacer palomitas" o "Detalle de modelo computacional  del primer prototipo".
 - Dentro de lo razonable, repetir cosas en varios sitios no es necesariamente malo. Es muy raro que alguien se lea un  documento técnico como se lee una novela, se va por secciones, se cambia de capítulo... Aunque no hay que exagerar esto, hay que asumir  que mucha gente se leerá las conclusiones casi lo primero.
-
 
 
 # Para revisar otros TFGs ya escritos
@@ -304,6 +296,7 @@ ejemplos (por ejemplo, de compañeros vuestros que ya hayan terminado). Algunos 
 - [Sistema de matchmaking para un videojuego multijugador ](https://docta.ucm.es/entities/publication/6e3d0790-6261-4e6c-b37e-98228388f522)
 - [Automatic detection of flashing video content in videogames (en inglés)](https://hdl.handle.net/20.500.14352/5380)
 - [Automatic validation of accesibility guidelines in videogames (en inglés)](https://hdl.handle.net/20.500.14352/3204)
+- [Plugin de Blender para exportación de materiales a Unity](https://hdl.handle.net/20.500.14352/106112)
 
 # Comunicación y revisiones
 
