@@ -64,10 +64,9 @@ que hay disponibles. Están también en la página de TFGs del año que toca, en
   Word](https://informatica.ucm.es/file/plantilla_tfg_word?ver)
 * [Plantilla para
   LaTeX](https://informatica.ucm.es/file/plantilla_tfg_latex?ver)
+* [Plantilla en Typst](https://informatica.ucm.es/file/tfg-typst?ver)
 
 Si vais a utilizar otras plantillas como [TeFloN](https://www.ucm.es/oficina-de-software-libre/file/teflon-x-c) revisad que el formato se aproxima a lo pedido en la normativa.
-
-También podéis probar [otras alternativas](https://github.com/wikiti/pandoc-book-template) para escribir [la memoria en Markdown](https://github.com/tompollard/phd_thesis_markdown), pero de esto no hay aún plantillas. 
 
 ## Editores y plataformas
 
